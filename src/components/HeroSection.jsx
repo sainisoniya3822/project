@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('/assets/herosection-bg.jpg')",
+          backgroundImage: "url('https://res.cloudinary.com/df1v3yied/image/upload/v1750048492/1H3A5072_okofmu.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black/40"></div>

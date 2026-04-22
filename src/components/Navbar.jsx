@@ -37,7 +37,7 @@ const Navigation = () => {
           <Link href="/" className="flex items-center space-x-3">
             <div className="h-20 w-20 overflow-hidden rounded-full">
               <img
-                src="/madhuramlogo.png"
+                src="./assets/madhuramlogo.png"
                 alt="Madhuram Heritage Logo"
                 className="h-full w-full object-cover"
               />
