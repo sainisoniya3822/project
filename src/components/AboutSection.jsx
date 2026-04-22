@@ -42,7 +42,7 @@ const AboutSection = () => {
           <div className="relative">
             <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://res.cloudinary.com/df1v3yied/image/upload/v1750048492/1H3A5072_okofmu.jpg"
+                src="https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800&q=80"
                 alt="Luxury resort interior"
                 className="w-full h-full object-cover"
               />
