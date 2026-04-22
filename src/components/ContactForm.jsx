@@ -43,7 +43,7 @@ export default function ContactForm() {
 
         .form-input {
           width: 100%;
-          background: rgba(240, 232, 223, 0.6);
+          background:rgba(255, 252, 248, 0.9);
           border: 1.5px solid rgba(107, 31, 31, 0.2);
           border-radius: 10px;
           padding: 11px 14px;
@@ -73,7 +73,7 @@ export default function ContactForm() {
           display: block;
           font-size: 0.78rem;
           font-weight: 500;
-          color: #5a2a15;
+          color:  rgb(240, 232, 223);;
           letter-spacing: 0.05em;
           text-transform: uppercase;
           margin-bottom: 6px;
@@ -83,7 +83,7 @@ export default function ContactForm() {
           position: relative;
           overflow: hidden;
           background: #6b1f1f;
-          color: #f0e8df;
+          color: rgb(240, 232, 223);
           border: none;
           border-radius: 12px;
           padding: 14px 48px;
@@ -132,7 +132,7 @@ export default function ContactForm() {
         .section-bar-label {
           font-size: 0.7rem;
           color: #c9a96e;
-          font-weight: 600;
+          font-weight: 800;
           letter-spacing: 0.15em;
           text-transform: uppercase;
           white-space: nowrap;
