@@ -14,7 +14,7 @@ import FooterSection from '@/components/FooterSection'
 const page = () => {
   return (
     <div>
-      <Navbar/>
+   
       <HeroSection/>
       <AboutSection/>
       <RoomSection/>
@@ -24,7 +24,7 @@ const page = () => {
       <HotelAmenities/>
       <TestimonialsSection/>
       <ContactForm/>
-      <FooterSection/>
+      
 
 
     </div>
