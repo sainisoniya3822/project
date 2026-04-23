@@ -6,49 +6,49 @@ import Image from "next/image";
 const galleryItems = [
   {
     id: 1,
-    src: "/images/gallery/lobby.jpg",
+    src: "https://i.pinimg.com/1200x/9e/32/a3/9e32a3f94014a391a6d21e3e8dbcac61.jpg",
     alt: "Luxury Resort Lobby",
     label: "Luxury Lobby",
   },
   {
     id: 2,
-    src: "/images/gallery/evening.jpg",
+    src: "https://i.pinimg.com/736x/bb/1b/7d/bb1b7d1c9d9d846578000e80780af4e5.jpg",
     alt: "Romantic Evening Ambience",
     label: "Evening Ambience",
   },
   {
     id: 3,
-    src: "/images/gallery/exterior.jpg",
+    src: "https://i.pinimg.com/736x/a3/33/76/a33376fd48e919c225a570165926ea3f.jpg",
     alt: "Resort Exterior",
     label: "Resort Exterior",
   },
   {
     id: 4,
-    src: "/images/gallery/reception.jpg",
+    src: "https://i.pinimg.com/1200x/7f/3d/80/7f3d80acdbd71c1c6e719370c67730ee.jpg",
     alt: "Reception Area",
     label: "Reception",
   },
   {
     id: 5,
-    src: "/images/gallery/entrance.jpg",
+    src: "https://i.pinimg.com/736x/32/83/3d/32833d1053d8931cc6b6dceac53984c1.jpg",
     alt: "Resort Entrance",
     label: "Grand Entrance",
   },
   {
     id: 6,
-    src: "/images/gallery/spa.jpg",
+    src: "https://i.pinimg.com/736x/cd/b0/e7/cdb0e7fd28b69022a1030da2b518fcdf.jpg",
     alt: "Couples Spa",
     label: "Couples Spa",
   },
   {
     id: 7,
-    src: "/images/gallery/pool.jpg",
+    src: "https://i.pinimg.com/736x/39/7b/b7/397bb74f2e11344ca3c1a6b9da09b866.jpg",
     alt: "Resort Pool Area",
     label: "Pool Area",
   },
   {
     id: 8,
-    src: "/images/gallery/paradise.jpg",
+    src: "https://i.pinimg.com/1200x/42/27/21/422721d087149cb8881a0fce5d0409dc.jpg",
     alt: "Beachside Paradise",
     label: "Beachside Paradise",
   },
@@ -216,7 +216,7 @@ function Lightbox({ item, onClose }) {
         style={{ backgroundColor: "#1e0e06" }}
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="relative w-full h-[420px md:h-[540px]">
+        <div className="relative w-full h-[420px] h-[540px]">
           <Image src={item.src} alt={item.alt} fill className="object-cover" />
         </div>
         <div className="px-5 py-3 flex items-center justify-between">
